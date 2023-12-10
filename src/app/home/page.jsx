@@ -2,7 +2,7 @@ import React from 'react';
 import Bigcard from '../(components)/bigcard';
 import Navbar from '../(components)/Navbar';
 
-const App = () => {
+const home = () => {
   return (
     <>
       <div className="font-sans">
@@ -144,4 +144,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default home;
