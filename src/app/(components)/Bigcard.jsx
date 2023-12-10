@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import React from 'react'
 
-export default function Bigcard() {
+import React from 'react'
+import Image from 'next/image'
+const Bigcard = () => {
   return (
     <div>
         <section className="relative  bg-blueGray-50">
@@ -96,3 +96,5 @@ export default function Bigcard() {
     </div>
   )
 }
+
+export default Bigcard

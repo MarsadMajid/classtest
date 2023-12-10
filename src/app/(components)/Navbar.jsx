@@ -17,7 +17,7 @@ import { FaSyringe } from "react-icons/fa";
 // import Darktheme from '../Darktheme'
 // import MobileNav from '../MobileNav'
 import Image from 'next/image'
-export default function Navbar() {
+const Navbar = () => {
   const [nav, Setnav] = useState(false)
   const [dark, Setdark] = useState(false)
 
@@ -95,3 +95,5 @@ export default function Navbar() {
     </div>
   )
 }
+
+export default Navbar

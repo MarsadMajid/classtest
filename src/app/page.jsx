@@ -1,5 +1,5 @@
 import React from 'react';
-import Bigcard from './(components)/bigcard';
+import Bigcard from './(components)/Bigcard';
 import Navbar from './(components)/Navbar';
 
 const App = () => {
