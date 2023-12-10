@@ -13,9 +13,9 @@ export default function ServiceCard(props) {
 
         <div className="ag-courses-item_title ">
             <div className='flex items-center justify-center  rounded-full object-cover mt-3' >
-                <Image width={500} height={500}  src={props.imgss}/>
+                <Image alt="i" width={500} height={500}  src={props.imgss}/>
                 </div>
-        {/* <Image width={70} height={10}  src=alt=""/> */}
+        {/* <Image width={70} height={10}  src=/> */}
         </div>
 
         <div className="ag-courses-item_date-box max-w-[350px] ">
