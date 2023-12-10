@@ -11,7 +11,7 @@ import React from 'react'
 //     }
 //   }
 const page =  async () => {
-    const bills = await fetchBills()
+    // const bills = await fetchBills()
   return (
     <div>
   <div >
